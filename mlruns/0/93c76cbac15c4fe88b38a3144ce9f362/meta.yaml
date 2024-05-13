@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/danie/OneDrive%20-%20Instituto%20Tecnologico%20y%20de%20Estudios%20Superiores%20de%20Monterrey/ITESM/Machine%20Learning%20Bootcamp/mlflow/mlruns/0/93c76cbac15c4fe88b38a3144ce9f362/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 93c76cbac15c4fe88b38a3144ce9f362
+run_name: redolent-quail-222
+run_uuid: 93c76cbac15c4fe88b38a3144ce9f362
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715567705721
+status: 1
+tags: []
+user_id: danie

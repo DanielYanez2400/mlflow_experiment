@@ -28,6 +28,8 @@ def eval_metrics(actual, pred):
     r2 = r2_score(actual, pred)
     return rmse, mae, r2
 
+os.environ['MLFLOW_TRACKING_USERNAME'] = 'DanielYanez2400'
+os.environ['MLFLOW_TRACKING_PASSWORD'] = 'e2ba9992b7f8bedcafbabcf5075e722adadc1535'
 
 if __name__ == "__main__":
     warnings.filterwarnings("ignore")
@@ -80,7 +82,7 @@ if __name__ == "__main__":
 
         ## For Remote server only(DAGShub)
 
-        remote_server_uri="https://dagshub.com/krishnaik06/mlflowexperiments.mlflow"
+        remote_server_uri="https://dagshub.com/DanielYanez2400/mlflow_experiment.mlflow"
         mlflow.set_tracking_uri(remote_server_uri)
 
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme

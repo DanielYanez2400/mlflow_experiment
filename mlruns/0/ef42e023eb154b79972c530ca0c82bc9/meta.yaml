@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/danie/OneDrive%20-%20Instituto%20Tecnologico%20y%20de%20Estudios%20Superiores%20de%20Monterrey/ITESM/Machine%20Learning%20Bootcamp/mlflow/mlruns/0/ef42e023eb154b79972c530ca0c82bc9/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ef42e023eb154b79972c530ca0c82bc9
+run_name: amazing-bug-581
+run_uuid: ef42e023eb154b79972c530ca0c82bc9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715567961014
+status: 1
+tags: []
+user_id: danie
