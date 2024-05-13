@@ -16,6 +16,7 @@ import mlflow
 from mlflow.models import infer_signature
 import mlflow.sklearn
 
+import dagshub
 import logging
 
 logging.basicConfig(level=logging.WARN)
@@ -28,10 +29,12 @@ def eval_metrics(actual, pred):
     r2 = r2_score(actual, pred)
     return rmse, mae, r2
 
-os.environ['MLFLOW_TRACKING_USERNAME'] = 'DanielYanez2400'
-os.environ['MLFLOW_TRACKING_PASSWORD'] = 'e2ba9992b7f8bedcafbabcf5075e722adadc1535'
 
 if __name__ == "__main__":
+    dagshub.init(repo_owner='DanielYanez2400', repo_name='mlflow_experiment', mlflow=True)
+    os.environ['MLFLOW_TRACKING_USERNAME'] = 'DanielYanez2400'
+    os.environ['MLFLOW_TRACKING_PASSWORD'] = 'e2ba9992b7f8bedcafbabcf5075e722adadc1535'
+
     warnings.filterwarnings("ignore")
     np.random.seed(40)
 
